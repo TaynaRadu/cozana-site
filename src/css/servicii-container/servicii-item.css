@@ -1,0 +1,15 @@
+/* .servicii__item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.servicii__item:hover .servicii__description {
+  display: block;
+  transition: 0.5s;
+}
+
+.servicii__item:hover .servicii__img {
+  opacity: 0.7;
+  transition: 0.5s;
+} */

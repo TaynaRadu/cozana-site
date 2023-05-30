@@ -1,0 +1,39 @@
+.servicii__img {
+  background: #000;
+  width: 300px;
+  height: 300px;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+.servicii__img:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transform: scale(1.3);
+}
+
+.one {
+  background: url(../../assets/images/cake1.jpg) no-repeat center / cover;
+}
+.two {
+  background: url(../../assets/images/cake2.jpg) no-repeat center / cover;
+}
+.three {
+  background: url(../../assets/images/cake3.jpeg) no-repeat center / cover;
+}
+.four {
+  background: url(../../assets/images/cake4.jpeg) no-repeat center / cover;
+}
+.five {
+  background: url(../../assets/images/cake5.jpeg) no-repeat center / cover;
+}
+.six {
+  background: url(../../assets/images/cake6.jpeg) no-repeat center / cover;
+}
+.seven {
+  background: url(../../assets/images/cake7.jpeg) no-repeat center / cover;
+}
+.eight {
+  background: url(../../assets/images/cake8.jpeg) no-repeat center / cover;
+}

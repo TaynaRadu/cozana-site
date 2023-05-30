@@ -1,0 +1,10 @@
+.servicii__container {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  justify-content: center;
+  gap: 20px;
+}
+
+.servicii__item {
+  background: #000;
+}
