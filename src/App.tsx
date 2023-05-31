@@ -1,32 +1,11 @@
 import logoRemovedPreview from "./assets/images/logo-removebg-preview.png";
 import cozonac1 from "./assets/images/cozonac1.png";
+import { Header } from "./components/Header/index.tsx";
 
 function App() {
   return (
     <>
-      <header className="header">
-        <img className="logo" src={logoRemovedPreview} alt="Logo" />
-
-        <nav className="menu">
-          <ul className="menu__list">
-            <li className="menu__item">
-              <a className="menu__link albastru" href="#despre">
-                Despre
-              </a>
-            </li>
-            <li className="menu__item">
-              <a className="menu__link galben" href="#galerie">
-                Galerie
-              </a>
-            </li>
-            <li className="menu__item">
-              <a className="menu__link rosu" href="#contact">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </header>
+      <Header />
 
       <section className="banner">
         <img className="banner__img" src={cozonac1} alt="" />

@@ -1,8 +1,40 @@
-.menu__list {
+.header {
   display: flex;
+  background: #fff;
+  align-items: center;
+  justify-content: space-between;
+  color: #f9f9f9;
+  padding: 1rem 2rem 1rem 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.menu {
+  width: 20%;
+  float: right;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  padding-right: 20px;
+}
+
+.menu__item:last-child .menu__link {
+  margin-right: 0;
+}
+
+.menu__link {
+  color: #a86141;
+  font-size: 1.2rem;
+  margin-right: 2rem;
+  text-decoration: none;
 }
 
 .menu__list {
+  display: flex;
   list-style: none;
 }
 

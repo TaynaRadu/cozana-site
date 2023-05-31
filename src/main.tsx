@@ -5,13 +5,6 @@ import App from "./App.tsx";
 import "./css/normalize.css";
 import "./css/reset.css";
 
-import "./css/menu/menu-list.css";
-import "./css/menu/menu-item.css";
-import "./css/menu/menu-link.css";
-
-import "./css/header.css";
-import "./css/logo.css";
-
 import "./css/banner/banner.css";
 import "./css/banner/banner-img.css";
 import "./css/banner/banner-title.css";
