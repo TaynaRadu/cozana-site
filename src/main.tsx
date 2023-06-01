@@ -5,10 +5,6 @@ import App from "./App.tsx";
 import "./css/normalize.css";
 import "./css/reset.css";
 
-import "./css/banner/banner.css";
-import "./css/banner/banner-img.css";
-import "./css/banner/banner-title.css";
-
 import "./css/despre/despre.css";
 import "./css/despre/despre-title.css";
 import "./css/despre/despre-description.css";

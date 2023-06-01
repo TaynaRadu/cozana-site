@@ -1,16 +1,11 @@
-import logoRemovedPreview from "./assets/images/logo-removebg-preview.png";
-import cozonac1 from "./assets/images/cozonac1.png";
 import { Header } from "./components/Header/index.tsx";
+import { Banner } from "./components/Banner/index";
 
 function App() {
   return (
     <>
       <Header />
-
-      <section className="banner">
-        <img className="banner__img" src={cozonac1} alt="" />
-        <h2 className="banner__title">Făcut cu dragoste</h2>
-      </section>
+      <Banner />
 
       <section className="despre" id="despre">
         <h2 className="despre__title">Despre</h2>
@@ -43,7 +38,7 @@ function App() {
       <section></section>
 
       <footer className="rodape" id="contact">
-        <h4 className="rodape__titulo">Cozona Home</h4>
+        <h4 className="rodape__titulo">Cozana Home</h4>
         <div className="rodape__container">
           <ul className="rodape__lista">
             <li className="rodape__lista--titulo">Location</li>

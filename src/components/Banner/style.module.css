@@ -1,3 +1,6 @@
+.banner {
+  position: relative;
+}
 .banner__title {
   color: #f9f9f9;
   font-family: Pacifico, cursive;
@@ -9,4 +12,8 @@
   text-align: center;
   transform: translate(-50%, -50%);
   width: 100%;
+}
+.banner__img {
+  width: 100%;
+  height: calc(100vh - 108px);
 }
