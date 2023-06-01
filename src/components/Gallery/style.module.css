@@ -1,3 +1,29 @@
+.servicii__container {
+  display: grid;
+  /* grid-template-columns: repeat(4, 300px); */
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  justify-content: center;
+  gap: 20px;
+}
+
+.servicii {
+  text-align: center;
+  padding: 5rem;
+  background: #efead6;
+}
+
+.servicii__title {
+  color: #a86141;
+  font-family: Pacifico, cursive;
+  font-size: 3.1875rem;
+  margin-bottom: 1rem;
+  margin-bottom: 60px;
+}
+
+.servicii__item {
+  background: #000;
+}
+
 .servicii__img {
   background: #000;
   width: 300px;

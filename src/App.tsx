@@ -1,6 +1,7 @@
 import { Header } from "./components/Header/index.tsx";
 import { Banner } from "./components/Banner/index";
 import { Description } from "./components/Description/index";
+import { Gallery } from "./components/Gallery/index";
 
 function App() {
   return (
@@ -8,22 +9,7 @@ function App() {
       <Header />
       <Banner />
       <Description />
-      <section className="servicii" id="galerie">
-        <h2 className="servicii__title">Galerie</h2>
-
-        <div className="servicii__container">
-          <div className="servicii__img one"></div>
-          <div className="servicii__img two"></div>
-          <div className="servicii__img three"></div>
-          <div className="servicii__img four"></div>
-          <div className="servicii__img five"></div>
-          <div className="servicii__img six"></div>
-          <div className="servicii__img seven"></div>
-          <div className="servicii__img eight"></div>
-        </div>
-      </section>
-
-      <section></section>
+      <Gallery />
 
       <footer className="rodape" id="contact">
         <h4 className="rodape__titulo">Cozana Home</h4>
