@@ -5,7 +5,9 @@ import styles from "./style.module.css";
 export function Header() {
   return (
     <header className={styles.header}>
-      <img className={styles.logo} src={logoRemovedPreview} alt="Logo" />
+      <a href="#banner">
+        <img className={styles.logo} src={logoRemovedPreview} alt="Logo" />
+      </a>
 
       <nav className={styles.menu}>
         <ul className={styles.menu__list}>
