@@ -1,0 +1,16 @@
+.despre {
+  text-align: center;
+  padding: 2.5rem;
+  padding: 80px 40px;
+}
+.despre__title {
+  color: #a86141;
+  font-family: Pacifico, cursive;
+  font-size: 3.1875rem;
+  margin-bottom: 60px;
+}
+.despre__description {
+  color: #595959;
+  font-weight: 100;
+  font-size: 1.75rem;
+}
