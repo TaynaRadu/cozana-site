@@ -1,5 +1,6 @@
-import { Logo } from "../Logo/index";
-import { ItemMenu, Menu } from "../Menu/index";
+import { Logo } from "./components/Logo/index";
+import { ItemMenu, Menu } from "./components/Menu/index";
+
 import styles from "./style.module.css";
 
 const MENU_ITENS: ItemMenu[] = [
