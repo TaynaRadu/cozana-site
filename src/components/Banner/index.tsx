@@ -1,4 +1,3 @@
-import cozonac1 from "../../assets/images/cozonac1.png";
 import styles from "./style.module.css";
 import { BannerProps } from "./types";
 
