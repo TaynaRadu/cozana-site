@@ -4,7 +4,7 @@ import cx from "classnames";
 export type ItemMenu = {
   label: string;
   href: string;
-  style: "albastru" | "galben" | "rosu";
+  style: string;
 };
 
 type MenuProps = {
