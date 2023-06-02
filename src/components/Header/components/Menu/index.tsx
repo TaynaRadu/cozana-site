@@ -4,7 +4,7 @@ import cx from "classnames";
 export type ItemMenu = {
   label: string;
   href: string;
-  style: string;
+  style: "albastru" | "galben" | "rosu";
 };
 
 type MenuProps = {
@@ -13,7 +13,7 @@ type MenuProps = {
 
 export function Menu(props: MenuProps) {
   return (
-    <nav className={styles.menu}>
+    <nav>
       <ul className={styles.menu__list}>
         {props.items.map(({ label, href, style }) => (
           <li className={styles.menu__item} key={href}>
