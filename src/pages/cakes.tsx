@@ -1,6 +1,5 @@
-import { Header } from "../components/Header/index";
+import { PageTemplate } from "../templates/page";
 import { Gallery } from "../components/Gallery/index";
-import { Footer } from "../components/Footer/index";
 
 import cake1 from "../assets/images/cake1.jpg";
 import cake2 from "../assets/images/cake2.jpg";
@@ -25,12 +24,9 @@ const IMAGES: GalleyImage[] = [
 export const Cakes = () => {
   return (
     <>
-      <Header />
-
-      <div style={{ marginTop: "4rem" }}>
+      <PageTemplate>
         <Gallery title="Cakes" images={IMAGES} />
-      </div>
-      <Footer />
+      </PageTemplate>
     </>
   );
 };

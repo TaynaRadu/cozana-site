@@ -1,13 +1,10 @@
-import { Header } from "../components/Header/index";
+import { PageTemplate } from "../templates/page";
 import { Description } from "../components/Description/index";
-import { Footer } from "../components/Footer/index";
 
 export const Despre = () => {
   return (
     <>
-      <Header />
-
-      <div style={{ marginTop: "4rem" }}>
+      <PageTemplate>
         <Description
           title="Despre"
           text="Cozana Home este o brutărie artizanală unde se simte aroma cozonacilor
@@ -18,9 +15,7 @@ export const Despre = () => {
         ingredientul secret , un stop de iubire născut din pasiunea pentru
         dulciuri sănătoase."
         />
-      </div>
-
-      <Footer />
+      </PageTemplate>
     </>
   );
 };
